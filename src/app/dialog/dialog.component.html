@@ -1,0 +1,21 @@
+<H1 mat-dialog-title>Adicionar Contato</H1>
+<div mat-dialog-content>
+    <form [formGroup]="nameForm">
+    <mat-form-field class="example-full-width">
+        <mat-label>Nome</mat-label>
+        <input formControlName="name" matInput placeholder="Nome">
+      </mat-form-field>
+        <br>
+        <mat-form-field class="example-full-width">
+            <mat-label>Telefone</mat-label>
+            <span matPrefix>  +55&nbsp;</span>
+            <input formControlName="telefone" type="tel" matInput placeholder="11 99999-9999">
+          </mat-form-field>
+        </form>
+</div>
+
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Sair</button>
+    <button style="margin: left 8px;" mat-raised-button color="primary" (click)="addName()">{{actionBtn}}</button>
+
+</div>

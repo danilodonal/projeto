@@ -1,0 +1,24 @@
+{
+  "nameList": [
+    {
+      "name": "BRUNO FERREIRA DE OLIVEIRA",
+      "telefone": "27992949944",
+      "id": 3
+    },
+    {
+      "name": "Danilo Santos Araujo",
+      "telefone": "+5534996578845",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
